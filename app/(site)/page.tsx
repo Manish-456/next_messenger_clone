@@ -16,12 +16,11 @@ export default function Home() {
      bg-gray-100
      "
     >
-      {/* sm:mx-auto sm:w-full sm:max-w-md  */}
-      {/* Supplement className */}
+
       <div>
         <Image
           className="mx-auto"
-          src={"/images/logo.png"}
+          src={"/logo.png"}
           alt="logo"
           height={40}
           width={40}
