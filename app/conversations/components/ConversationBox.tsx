@@ -23,7 +23,7 @@ const ConversationBox: FC<ConservationProps> = ({ data, selected }) => {
   }, [data?.id, router]);
   const lastMessage: any = useMemo(() => {
     const messages = data.messages || [];
-    return messages[messages.length - 1];
+    return messages[messages.length];
   }, [data.messages]);
 
   const userEmail = useMemo(() => {
